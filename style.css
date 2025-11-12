@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+}
+header .entete {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+header .entete a {
+    color: black;
+}
+header .entete a:hover {
+    color: red;
+    cursor: pointer;
+}
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+header #onglets {
+    margin-top: 35px;
+    margin-right: 25px;
+}
+header #onglets a {
+    text-align: 15px;
+    margin-right: 25px;
+    text-decoration: none;
+    color: black;
+}
+header #onglets a:hover {
+    
+    color: red;
+    cursor: pointer;
+}
+.conseil {
+    position: relative;
+    color:rgb(245, 242, 242);
+    padding: 15px 15px;
+    background-image: url(images/maq1.jpg);
+    height: 400px;
+}
+.conseil .content {
+    position: relative;
+    z-index: 1;
+    margin-right: 25px;
+    text-align: 15px;   
+    margin-top: 75px;
+
+}
+.conseil .content .button-container a {
+    margin-top: 75px;
+    text-decoration: none;
+    color: white;
+    border: 3px solid;
+    padding: 15px 15px;
+    border-radius: 25px;
+
+}
+.conseil .content .button-container a:hover {
+    color: rgb(227, 121, 121);
+    cursor: pointer;
+    
+}
