@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    width: 800px;
 }
 header .entete {
     display: flex;
@@ -39,7 +40,11 @@ header #onglets a:hover {
     color:rgb(245, 242, 242);
     padding: 15px 15px;
     background-image: url(images/maq1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     height: 400px;
+    width: 100%;
 }
 .conseil .content {
     position: relative;
@@ -62,4 +67,55 @@ header #onglets a:hover {
     color: rgb(227, 121, 121);
     cursor: pointer;
     
+}
+.nosservices {
+    background-color: white;
+    color: black;
+    margin-top: 80px;
+}
+.nosservices h2 {
+    text-align: center;
+}
+.nosservices p {
+    text-align: center;
+    font-size: 12px;
+}
+.nosservices .left {
+    display: flex;
+    max-width: 100%;
+}
+.nosservices .right {
+    display: flex;
+}
+.Rédaction { 
+    display: flex;
+    max-width: 400px;
+    padding: 15px 15px;
+}
+.Analyse {
+    display: flex;
+    width: 100%;
+    padding: 15px 15px;    
+}
+.Gestion {
+    display: flex;
+    max-width: 400px;
+    padding: 15px 15px;
+}
+.Assistance {
+    display: flex;
+     width: 100%;
+    padding: 15px 15px; 
+}
+.nosservices img {
+    width: 30px;
+    height: 30px;
+}
+.left p {
+    text-align: justify;
+    margin-left: 5px;
+}
+.right p {
+    text-align: justify;
+    margin-left: 5px;
 }
