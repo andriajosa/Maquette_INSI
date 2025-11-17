@@ -178,3 +178,63 @@ header #onglets a:hover {
     color: rgb(214, 84, 84);
     cursor: pointer;
 }
+footer {
+    background-image: url(images/fiqih-alfarish-pU0XbVsDBzw-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 80px 60px;
+    color: white;
+    position: relative;
+    margin-top: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 90%;
+}
+
+.services_offshore_à_Madagascar .content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100px;
+    margin: auto;
+    position: relative;
+    margin-right: 25px; 
+    margin-top: 12px;  
+}
+.services_offshore_à_Madagascar {
+    background-color: white;
+    color: black;
+}
+.services_offshore_à_Madagascar h3 {
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+.services_offshore_à_Madagascar p {
+    text-align: center;
+    font-size: 12px;
+}
+.stats {
+    text-align: center;
+    padding: 20px;
+    display: inline-table;
+    flex-direction: row-reverse;
+}
+.stats img {
+    margin-top: 15px; 
+    height: 45px;
+    width: 45px;
+    object-fit: contain;
+    filter: brightness(0) invert(1); 
+    color: beige;
+    align-items: center;
+}
+.stats h4 {
+    font-size: 28px;
+    margin: 5px 0;
+}
+.stats p {
+    color: aqua;
+    margin: 0;
+}
